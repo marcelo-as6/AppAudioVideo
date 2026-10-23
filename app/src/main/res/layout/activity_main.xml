@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/puma"
+        android:scaleType="centerInside"
+        android:contentDescription="Imagen multimedia" />
+
+    <Button
+        android:id="@+id/playAudioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reproducir audio" />
+
+    <VideoView
+        android:id="@+id/myVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/playVideoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reproducir video" />
+
+    <Button
+        android:id="@+id/animateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animar imagen" />
+
+</LinearLayout>
